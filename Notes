@@ -1,8 +1,6 @@
 URI: 
 https://euw1.api.riotgames.com/
 
-API
-?api_key=RGAPI-95d3b4bd-3306-4a89-ad0c-986e0cefa4f3
 
 Get Match by ID
 /lol/match/v4/matches/{matchId}
