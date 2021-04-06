@@ -1,0 +1,68 @@
+URI: 
+https://euw1.api.riotgames.com/
+
+API
+?api_key=RGAPI-95d3b4bd-3306-4a89-ad0c-986e0cefa4f3
+
+Get Match by ID
+/lol/match/v4/matches/{matchId}
+Example: 
+https://euw1.api.riotgames.com/lol/match/v4/matches/4930657149?api_key=RGAPI-95d3b4bd-3306-4a89-ad0c-986e0cefa4f3
+
+
+
+How to handle lol players that only have one of the two ranks.
+
+
+
+
+
+
+[
+    {
+        "leagueId": "c6d946cc-e6f1-4cbc-9654-1e39d4746afe",
+        "queueType": "RANKED_SOLO_5x5",
+        "tier": "SILVER",
+        "rank": "IV",
+        "summonerId": "NgG-6MoGwingT-GpPFHd-67gpPlO4jv87VqmzWQ5tjONgIcF",
+        "summonerName": "FredrikochFilip",
+        "leaguePoints": 93,
+        "wins": 17,
+        "losses": 23,
+        "veteran": false,
+        "inactive": false,
+        "freshBlood": false,
+        "hotStreak": false
+    },
+    {
+        "leagueId": "f1a7f075-0690-404a-bf4f-4a541b2922de",
+        "queueType": "RANKED_FLEX_SR",
+        "tier": "BRONZE",
+        "rank": "I",
+        "summonerId": "NgG-6MoGwingT-GpPFHd-67gpPlO4jv87VqmzWQ5tjONgIcF",
+        "summonerName": "FredrikochFilip",
+        "leaguePoints": 67,
+        "wins": 6,
+        "losses": 7,
+        "veteran": false,
+        "inactive": false,
+        "freshBlood": false,
+        "hotStreak": false
+    }
+]
+
+
+Crallen id : OftoySwq1B8femdqmYjnNRtXTIss_4lEiQ05R64aPOCUVz0
+(no rank)
+
+MY INFO
+"player": {
+"platformId": "EUW1",
+"accountId": "vTa8W8S__0exFgKy_xORDbL7HRLT90bvAf6TYV-CpTCHJ3Ziy0-irzP3",
+"summonerName": "FredrikochFilip",
+"summonerId": "NgG-6MoGwingT-GpPFHd-67gpPlO4jv87VqmzWQ5tjONgIcF",
+"currentPlatformId": "EUW1",
+"currentAccountId": "vTa8W8S__0exFgKy_xORDbL7HRLT90bvAf6TYV-CpTCHJ3Ziy0-irzP3",
+"matchHistoryUri": "/v1/stats/player_history/EUW1/2540023439296448",
+"profileIcon": 4312
+}
